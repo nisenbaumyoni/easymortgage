@@ -14,9 +14,7 @@
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
+        "typecheck": { "targetName": "typecheck" },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
@@ -47,13 +45,9 @@
       }
     }
   ],
-  "nxCloudId": "6a9333d5b014195fc643f00d",
+  "nxCloudId": "6a934694e0d4baed8e2bbd89",
   "analytics": false,
-  "targetDefaults": {
-    "test": {
-      "dependsOn": ["^build"]
-    }
-  },
+  "targetDefaults": { "test": { "dependsOn": ["^build"] } },
   "generators": {
     "@nx/react": {
       "application": {
@@ -62,13 +56,8 @@
         "linter": "none",
         "bundler": "vite"
       },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "none"
-      }
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "none" }
     }
   }
 }
